@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>H&M Eco-Friendly Fashion | Conscious Collection</title>
+
+<style type="text/css">
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+    body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; background-color: #f4f4f4; }
+    table { border-collapse: collapse !important; }
+    a { color: #ffffff; text-decoration: none; }
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    .appleBody a { color: #68440a; text-decoration: none; }
+    .appleFooter a { color: #999999; text-decoration: none; }
+    
+    @media screen and (max-width: 600px) {
+        h1 { font-size: 28px !important; line-height: 32px !important; }
+    }
+</style>
+
+</head>
+<body style="margin: 0 !important; padding: 0 !important; background-color: #f4f4f4;">
+
+<!-- Main Wrapper -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <!-- Logo Section -->
+    <tr>
+        <td bgcolor="#2e7d32" align="center">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" >
+                <tr>
+                    <td align="center" valign="top" style="padding: 40px 10px;">
+                        <a href="#" target="_blank" style="text-decoration: none;">
+                            <img alt="H&M Conscious" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/2560px-H%26M-Logo.svg.png" width="200" style="display: block; width: 200px; font-family: Arial, sans-serif; color: #ffffff; font-size: 18px;" border="0">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- Banner Image -->
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 0px 10px 0px 10px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                    <td align="center" valign="top" style="padding: 0px;">
+                        <img src="https://images.unsplash.com/photo-1593032465171-8b1c8c5c8a13?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1200" width="600" height="300" style="display: block; width: 100%; height: auto; border: 0px;" alt="Eco-Friendly Fashion">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- Main Content -->
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 40px 10px 20px 10px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                    <td align="center" style="font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; color: #333333;">
+                        Step Into Sustainability with H&M
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="padding: 20px 0 30px 0; font-family: Arial, sans-serif; font-size: 16px; color: #666666;">
+                        Discover our Eco-Friendly Collection, crafted with organic, recycled, and conscious materials — because looking good should feel good too.
+                    </td>
+                </tr>
+                <!-- Button -->
+                <tr>
+                    <td align="center">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="border-radius: 3px;" bgcolor="#43a047">
+                                                <a href="#" target="_blank" style="font-size: 18px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #43a047; display: inline-block;">Shop the Eco Collection</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- Features List -->
+                <tr>
+                    <td align="center" style="padding: 30px 0 0 0;">
+                        <table width="80%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" style="font-family: Arial, sans-serif; font-size: 18px; color: #388e3c; padding-bottom: 10px;">
+                                    Why You'll Love It:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="font-family: Arial, sans-serif; font-size: 16px; color: #555555; line-height: 24px;">
+                                    <ul style="list-style-type: none; padding: 0;">
+                                        <li>✓ 100% Organic Cotton Materials</li>
+                                        <li>✓ Recycled Polyester Fabrics</li>
+                                        <li>✓ Eco-Conscious Production</li>
+                                        <li>✓ Ethical & Sustainable Sourcing</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- Footer Text -->
+                <tr>
+                    <td align="center" style="padding: 40px 0 0 0; font-family: Arial, sans-serif; font-size: 14px; color: #aaaaaa;">
+                        © 2025 H&M Conscious Collection<br/>
+                        You are receiving this email because you subscribed to our updates.<br/>
+                        <a href="#" style="color: #999999;">Unsubscribe</a> | <a href="#" style="color: #999999;">Manage Preferences</a>
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
