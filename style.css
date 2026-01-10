@@ -205,3 +205,49 @@ html{
 .card a:hover{
     text-decoration:underline;
 }
+.thumb-img{
+    width:80%;
+    max-width:600px;
+    display:block;
+    margin:20px auto;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+.btn{
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+    margin-top:15px;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+section h2{
+    border-left:5px solid #2563eb;
+    padding-left:10px;
+}
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+.hero{
+    background:linear-gradient(135deg,#2563eb,#38bdf8);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+section{
+    animation:fade 0.8s ease-in;
+}
