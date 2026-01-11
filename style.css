@@ -431,3 +431,82 @@ section{
     margin:8px 0;
     font-size:16px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+.project-banner,
+.presentation-banner,
+.skills-banner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.project-banner img,
+.presentation-banner img,
+.skills-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card {
+  width: 100%;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .project-banner,
+  .presentation-banner,
+  .skills-banner {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+
+  .card {
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 60px;
+  }
+}
