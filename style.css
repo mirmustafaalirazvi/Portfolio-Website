@@ -1,3 +1,6 @@
+html{
+    font-size: 90%;   /* zoom out entire site */
+}
 body{
     font-family: Arial, sans-serif;
     margin:0;
@@ -317,9 +320,7 @@ section{
 }
 
 .project-banner{
-    background: url("Thumbnail.png") no-repeat center;
-    background-size: cover;
-
+    
     height: 230px;       /* perfect height */
     max-width: 1100px;
     margin: 40px auto;
@@ -654,4 +655,26 @@ section {
     .card {
         width: 100%;
     }
+}
+meta[name="viewport"]{
+    content: "width=device-width, initial-scale=1.0";
+}
+section{
+    max-width:1100px;
+    margin:auto;
+}
+
+.card{
+    transform: scale(0.95);
+}
+@media(max-width:768px){
+
+    html{
+        font-size:85%; /* zoom out more on phone */
+    }
+
+    .card{
+        transform: scale(0.92);
+    }
+
 }
