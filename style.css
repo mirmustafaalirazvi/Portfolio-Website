@@ -303,3 +303,131 @@ section{
   font-size: 14px;
   line-height: 1.6;
 }
+.project-banner{
+    background: url("Thumbnail.png") center/cover no-repeat;
+    height: 260px;              /* Not too tall */
+    max-width: 1100px;          /* Prevent stretching */
+    margin: 40px auto;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project-banner{
+    background: url("Thumbnail.png") no-repeat center;
+    background-size: cover;
+
+    height: 230px;       /* perfect height */
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.project-banner {
+    width: 90%;              /* not full width – looks premium */
+    max-width: 1100px;       /* prevents over stretching */
+    height: 360px;
+    margin: 40px auto;      /* centers banner */
+    overflow: hidden;
+    border-radius: 14px;    /* smooth edges */
+    position: relative;
+    box-shadow: 0 8px 25px rgb(253, 251, 251);
+}
+
+/* Image styling */
+.project-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* Soft triangular shape (NOT aggressive) */
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 92%,
+        85% 100%,
+        0 100%
+    );
+}
+
+/* Light overlay (optional but classy) */
+.project-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(247, 245, 245, 0.952),
+        rgba(243, 240, 240, 0.89)
+    );
+}
+/* Project Presentation Banner */
+.presentation-banner {
+    width: 100%;
+    max-width: 1100px;
+    height: 320px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 14px;
+    position: relative;
+}
+
+.presentation-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
+/* SKILLS SECTION */
+
+#skills{
+    margin:60px auto;
+    max-width:1100px;
+}
+
+/* Banner */
+.skills-banner{
+    width:100%;
+    height:320px;
+    overflow:hidden;
+    border-radius:14px;
+    margin:30px 0;
+}
+
+.skills-banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* Content */
+.skills-content{
+    background:#f9f9f9;
+    padding:30px;
+    border-radius:12px;
+}
+
+.skills-content h3{
+    margin-top:20px;
+    color:#1f3c88;
+}
+
+.skills-content ul{
+    margin-left:20px;
+}
+
+.skills-content li{
+    margin:8px 0;
+    font-size:16px;
+}
