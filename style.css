@@ -4,19 +4,23 @@ html{
 body{
     font-family: Arial, sans-serif;
     margin:0;
-    background:#f5f7fa;
+    background:#f0f0f3;
 }
 
 /* NAVBAR - OLD STYLE LOOK */
 nav{
     width:100%;
-    background:#0f172a;
+    background:#1d1d1f;
     padding:10px 40px;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
-
+nav h1{
+    color: #ffffff;   /* White */
+    font-size: 22px;
+    font-weight: 600;
+}
 nav h1{
     color:white;
     font-size:20px;
@@ -320,36 +324,28 @@ section{
   line-height: 1.6;
 }
 .project-banner{
-    background: url("Thumbnail.png") center/cover no-repeat;
-    height: 260px;              /* Not too tall */
-    max-width: 1100px;          /* Prevent stretching */
+    width: 90%;
+    max-width: 1100px;
+    height: 320px;
     margin: 40px auto;
-    border-radius: 12px;
+    border-radius: 14px;
+    overflow: hidden;
     position: relative;
+
+    /* Clean normal background */
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(228, 225, 225, 0.15);
 }
-
-
-
-.project-banner {
-    width: 90%;              /* not full width – looks premium */
-    max-width: 1100px;       /* prevents over stretching */
-    height: 360px;
-    margin: 40px auto;      /* centers banner */
-    overflow: hidden;
-    border-radius: 14px;    /* smooth edges */
-    position: relative;
-    box-shadow: 0 8px 25px rgb(253, 251, 251);
-}
-
 /* Image styling */
 .project-banner img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: containr;
 
     /* Soft triangular shape (NOT aggressive) */
     clip-path: polygon(
@@ -702,4 +698,8 @@ section{
 .card{
     padding:15px;
     font-size:14px;
+}
+nav h1{
+    color: #ffffff !important;
+    font-weight: bold;
 }
