@@ -510,3 +510,82 @@ img {
     padding: 60px;
   }
 }
+/* ================= MOBILE FIX ================= */
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+/* Make everything responsive */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* Banner fix */
+.project-banner img,
+.presentation-banner img,
+.skills-banner img{
+  width:100%;
+  height:auto;
+  border-radius:12px;
+}
+
+/* Cards responsive */
+.card{
+  width:100%;
+}
+
+/* Section padding */
+section{
+  padding:15px;
+}
+
+/* ---------------- MOBILE ---------------- */
+@media(max-width:768px){
+
+  nav ul{
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .hero{
+    padding:30px 15px;
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:22px;
+  }
+
+  .hero p{
+    font-size:14px;
+  }
+
+  .project-banner,
+  .presentation-banner,
+  .skills-banner{
+    margin:20px auto;
+  }
+
+  .card{
+    margin:10px 0;
+  }
+}
+
+/* ---------------- LAPTOP ---------------- */
+@media(min-width:769px){
+
+  .hero{
+    padding:80px 60px;
+  }
+
+  .card{
+    max-width:800px;
+    margin:15px auto;
+  }
+}
