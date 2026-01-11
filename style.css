@@ -7,33 +7,46 @@ body{
     background:#f5f7fa;
 }
 
-/* NAVBAR */
+/* NAVBAR - OLD STYLE LOOK */
 nav{
-    background:#1f2937;
-    color:white;
-    padding:15px 40px;
+    width:100%;
+    background:#0f172a;
+    padding:10px 40px;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 
-nav ul{
-    list-style:none;
+nav h1{
+    color:white;
+    font-size:20px;
 }
 
-nav ul li{
-    display:inline;
-    margin:0 15px;
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
 }
 
 nav ul li a{
     color:white;
     text-decoration:none;
-    font-weight:bold;
+    font-size:14px;
+    font-weight:500;
 }
 
 nav ul li a:hover{
     color:#38bdf8;
+}
+@media(max-width:768px){
+    nav{
+        flex-direction:row;
+    }
+
+    nav ul{
+        flex-direction:row;
+        gap:15px;
+    }
 }
 
 /* SECTIONS */
@@ -666,4 +679,27 @@ section{
         transform: scale(0.92);
     }
 
+}
+@media(max-width:768px){
+
+nav{
+    flex-direction:row;   /* IMPORTANT */
+}
+
+nav ul{
+    flex-direction:row;
+    gap:15px;
+}
+
+}
+body{
+    zoom:0.9;
+}
+section{
+    max-width:1000px;
+    margin:20px auto;
+}
+.card{
+    padding:15px;
+    font-size:14px;
 }
