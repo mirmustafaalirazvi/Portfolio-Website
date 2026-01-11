@@ -712,6 +712,7 @@ nav h1{
     border-radius: 14px;
     overflow: hidden;
     position: relative;
+    background: #ffffff;
     box-shadow: 0 8px 25px rgba(250, 247, 247, 0.919);
 }
 
@@ -734,36 +735,6 @@ margin:30px 0;
 color:#007bff;
 }
 
-.detail-card{
-width:90%;
-max-width:900px;
-margin:30px auto;
-background:#ffffff;
-padding:25px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(240, 238, 238, 0.908);
-}
 
-.detail-card h2{
-color:#007bff;
-margin-bottom:10px;
-}
 
-.detail-card ul{
-padding-left:20px;
-}
 
-.detail-card li{
-margin-bottom:6px;
-font-size:14px;
-}
-
-.detail-card a{
-display:inline-block;
-margin-top:12px;
-text-decoration:none;
-color:white;
-background:#007bff;
-padding:8px 14px;
-border-radius:6px;
-}
