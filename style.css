@@ -858,10 +858,10 @@ section.show {
     background:#0056b3;
 }
 
-/* MOBILE */
-@media(max-width:768px){
-    .contact-box{
-        grid-template-columns:1fr;
+@media (max-width: 768px){
+    section{
+        height:auto !important;
+        overflow:visible !important;
     }
 }
 /* BUTTON ANIMATIONS */

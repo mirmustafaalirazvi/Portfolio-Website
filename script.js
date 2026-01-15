@@ -12,29 +12,34 @@ function validate(){
         alert("Thank you " + name);
     }
 }
-window.addEventListener("scroll", () => {
-    document.querySelectorAll("section").forEach(sec => {
-        let pos = sec.getBoundingClientRect().top;
-        let screenHeight = window.innerHeight;
-
-        if (pos < screenHeight - 100) {
-            sec.classList.add("show");
-        }
-    });
+window.addEventListener("load", () => {
+ document.querySelectorAll("section").forEach(sec=>{
+  sec.classList.add("show");
+ });
 });
 let topBtn = document.getElementById("topBtn");
 
-window.onscroll = function(){
-    if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
-        topBtn.style.display = "block";
-    }else{
-        topBtn.style.display = "none";
+window.onscroll = function () {
+
+    if(topBtn){   // SAFETY CHECK
+
+        if(document.body.scrollTop > 200 || 
+           document.documentElement.scrollTop > 200){
+
+            topBtn.style.display = "block";
+
+        } else {
+            topBtn.style.display = "none";
+        }
+
+    }
+};
+
+if(topBtn){
+    topBtn.onclick = function(){
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 }
-
-topBtn.onclick = function(){
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-}  
