@@ -1,45 +1,48 @@
 function showMessage(){
-    alert("Welcome to my portfolio!");
+ alert("Welcome to my portfolio!");
 }
 
 function validate(){
-    let name = document.getElementById("name").value;
+ let name = document.getElementById("name").value;
 
-    if(name == ""){
-        alert("Please enter your name");
-    }
-    else{
-        alert("Thank you " + name);
-    }
+ if(name == ""){
+  alert("Please enter your name");
+ }
+ else{
+  alert("Thank you " + name);
+ }
 }
-window.addEventListener("load", () => {
+
+/* SHOW ALL SECTIONS SAFELY */
+document.addEventListener("DOMContentLoaded", () => {
  document.querySelectorAll("section").forEach(sec=>{
-  sec.classList.add("show");
+  sec.style.opacity="1";
+  sec.style.transform="none";
  });
 });
+
+/* BACK TO TOP */
 let topBtn = document.getElementById("topBtn");
 
-window.onscroll = function () {
+window.addEventListener("scroll", () => {
 
-    if(topBtn){   // SAFETY CHECK
+ if(!topBtn) return;
 
-        if(document.body.scrollTop > 200 || 
-           document.documentElement.scrollTop > 200){
+ if(document.body.scrollTop > 200 || 
+    document.documentElement.scrollTop > 200){
+  topBtn.style.display="block";
+ }
+ else{
+  topBtn.style.display="none";
+ }
 
-            topBtn.style.display = "block";
-
-        } else {
-            topBtn.style.display = "none";
-        }
-
-    }
-};
+});
 
 if(topBtn){
-    topBtn.onclick = function(){
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    }
+ topBtn.onclick = function(){
+  window.scrollTo({
+   top:0,
+   behavior:"smooth"
+  });
+ }
 }
