@@ -12,12 +12,29 @@ function validate(){
         alert("Thank you " + name);
     }
 }
-window.addEventListener("scroll", ()=>{
-    document.querySelectorAll("section").forEach(sec=>{
+window.addEventListener("scroll", () => {
+    document.querySelectorAll("section").forEach(sec => {
         let pos = sec.getBoundingClientRect().top;
-        if(pos < window.innerHeight - 100){
-            sec.style.opacity="1";
-            sec.style.transform="translateY(0)";
+        let screenHeight = window.innerHeight;
+
+        if (pos < screenHeight - 100) {
+            sec.classList.add("show");
         }
     });
 });
+let topBtn = document.getElementById("topBtn");
+
+window.onscroll = function(){
+    if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+        topBtn.style.display = "block";
+    }else{
+        topBtn.style.display = "none";
+    }
+}
+
+topBtn.onclick = function(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}  
